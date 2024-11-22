@@ -5,6 +5,7 @@
 .icon-button i {
   color: white;
 }
+
 .icon-button {
   margin-bottom: 10px;
 }
@@ -58,13 +59,13 @@
 }
 
 .google i {
-  background-color: #ea4335;
+  background-color: #ffcc52;
   transition: all 0.2s ease-in-out;
 }
 
 .google i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #ea4335;
+  box-shadow: 0 5px 15px #ffcc52;
 }
 
 .twitter i {
@@ -85,6 +86,25 @@
 .instagram i:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #e4405f;
+}
+
+.youtube i {
+  background-color: #ea4335;
+  transition: all 0.2s ease-in-out;
+}
+
+.youtube i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #ea4335;
+}
+
+.icon-button.tiktok svg {
+  width: 24px;
+  /* Adjust size as needed */
+  height: 24px;
+  /* Match the width for a square icon */
+  fill: #000000;
+  /* Set desired color */
 }
 
 /* Media Query */

@@ -6,6 +6,7 @@ import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Recommendations from "../../containers/recommendations/Recommendations";
 
 function Education(props) {
   const theme = props.theme;
@@ -29,14 +30,15 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I'm a Computer Science Engineer and have done some
+                certifications to enhance my skills.
               </p>
             </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
+        <Recommendations theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
     </div>

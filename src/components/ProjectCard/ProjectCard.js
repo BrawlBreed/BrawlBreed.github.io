@@ -4,6 +4,7 @@ import ProjectLinks from "../ProjectLinks/ProjectLinks";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
+import { Link } from "react-router-dom/cjs/react-router-dom";
 
 export default function ProjectCard({ repo, theme }) {
   console.log(repo);
@@ -19,7 +20,7 @@ export default function ProjectCard({ repo, theme }) {
     padding: "2rem",
     cursor: "pointer",
     borderRadius: "5px",
-    height: "100%",
+    height: "fit-content",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `${theme.imageDark} 0 2px 15px`,
@@ -29,29 +30,31 @@ export default function ProjectCard({ repo, theme }) {
   return (
     <div>
       <Fade bottom duration={2000} distance="40px">
-        <div
-          {...styles}
-          key={repo.id}
-          // onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
-        >
-          <div className="repo-name-div">
-            <p className="repo-name" style={{ color: theme.text }}>
-              {repo.name}
+        <a href={repo.url}>
+          <div
+            {...styles}
+            key={repo.id}
+            // onClick={() => openRepoinNewTab(repo.url)}
+            style={{ backgroundColor: theme.projectCard }}
+          >
+            <div className="repo-name-div">
+              <p className="repo-name" style={{ color: theme.text }}>
+                {repo.name}
+              </p>
+            </div>
+            <p className="repo-description" style={{ color: theme.text }}>
+              {repo.description}
             </p>
-          </div>
-          <p className="repo-description" style={{ color: theme.text }}>
-            {repo.description}
-          </p>
-          <div className="flexDiv">
-            <div className="repo-details Leftitem">
-              <ProjectLanguages logos={repo.languages} />
-            </div>
-            <div className="repo-details Rightitem">
-              <ProjectLinks logos={repo.links} />
+            <div className="flexDiv">
+              <div className="repo-details Leftitem">
+                <ProjectLanguages logos={repo.languages} />
+              </div>
+              <div className="repo-details Rightitem">
+                <ProjectLinks logos={repo.links} />
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </Fade>
     </div>
   );

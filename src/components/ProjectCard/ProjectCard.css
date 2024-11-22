@@ -75,9 +75,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .Leftitem {
   align-content: flex-start;
 }
+
 .Rightitem {
   align-items: flex-end;
 }

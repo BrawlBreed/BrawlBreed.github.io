@@ -3,15 +3,19 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
+import FullStackImg from "../../assests/images/FullStackImg.svg";
+import EntrepreneurshipImg from "../../assests/images/EntrepreneurshipImg.svg";
+import FrontEndImg from "../../assests/images/FrontEndImg.svg";
+import SocialMediaImg from "../../assests/images/SocialMediaImg.svg";
 // import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+  if (props.fileName === "FullStackImg") return <img src={FullStackImg} />;
+  else if (props.fileName === "FrontEndImg") return <img src={FrontEndImg} />;
+  else if (props.fileName === "EntrepreneurshipImg")
+    return <img src={EntrepreneurshipImg} />;
+  else if (props.fileName === "SocialMediaImg")
+    return <img src={SocialMediaImg} />;
   // return <DesignImg theme={props.theme} />;
 }
 

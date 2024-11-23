@@ -528,7 +528,8 @@ const degrees = {
         "⚡ I have also attended to multiple workshops and webinars to enhance my knowledge and skills.",
         "😊 As a top up - believe I've learned to utilize the english language on an enterprise level, still working on my accent.",
       ],
-      website_link: "https://2els.com",
+      website_link:
+        "https://drive.google.com/file/d/1ajijC7f-k6mqOEaV4xT_dET1mzNWOPX9/view?usp=sharing",
     },
     {
       title: "International University Of Applied Sciences",
@@ -543,7 +544,8 @@ const degrees = {
         "⚡ I am working on hands-on projects that involve implementing AI models for real-world applications, such as predictive analytics, chatbot development, and image recognition.",
         "⚡ I continuously enhance my skills through collaborative AI research projects and stay updated with the latest advancements in the field.",
       ],
-      website_link: "https://www.iu.org/",
+      website_link:
+        "https://drive.google.com/file/d/13maR1krF9K1MRmCBGJTx6eSpO0W2sWtf/view?usp=sharing",
     },
   ],
 };
@@ -950,7 +952,22 @@ const projects = {
         { name: "JavaScript", iconifyClass: "logos-javascript" },
       ],
       links: [],
-      // SOURCE CODE
+      url: "https://github.com/BrawlBreed/RoyalLashes",
+    },
+    {
+      id: "33",
+      name: "Barber Shop",
+      description:
+        " The website blends HTML, CSS, JavaScript, and Bootstrap. Designed with Adobe's creative tools, it offers a visually stunning and user-friendly experience.",
+      languages: [
+        { name: "HTML", iconifyClass: "logos-html-5" },
+        { name: "CSS", iconifyClass: "logos-css-3" },
+        { name: "AdobeXD", iconifyClass: "logos-adobe" },
+        { name: "Bootstrap", iconifyClass: "logos-bootstrap" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+      ],
+      links: [],
+      url: "https://github.com/BrawlBreed/Barbershop",
     },
     {
       id: "7",
@@ -1002,6 +1019,7 @@ const projects = {
         { name: "AdobeXD", iconifyClass: "logos-adobe" },
       ],
       links: [],
+      url: "https://github.com/BrawlBreed/TravelAgency",
       // SOURCE CODE
     },
     {
@@ -1181,6 +1199,7 @@ const projects = {
         { name: "PayPal API", iconifyClass: "logos-paypal" },
       ],
       links: [],
+      url: "https://github.com/irinabobeva12/DemoDeviceOrder.git",
       // SOURCE CODE AND UPDATE IT ON MY PROFILE IN GIT
     },
     {
@@ -1299,6 +1318,20 @@ const projects = {
         },
       ],
       url: "https://www.catamarina.eu",
+    },
+    {
+      id: "35",
+      name: "Scheme AI Chatbot",
+      description:
+        "AI chatbot for featured fine-tuning information assist, built with Python. Features natural language processing, sentiment analysis, and automated responses.Works with any model on HuggingFace.",
+      languages: [
+        { name: "Python", iconifyClass: "logos-python" },
+        { name: "NLP", iconifyClass: "mdi:script-text" },
+        { name: "Sentiment Analysis", iconifyClass: "mdi:emoticon" },
+        { name: "AI", iconifyClass: "mdi:robot" },
+      ],
+      links: [],
+      url: "https://github.com/aitestingwithhomies/SchemeAI.git",
     },
   ],
 };

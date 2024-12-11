@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Zlatin Antonius",
   subTitle: "Full Stack Developer, Project Executor 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1wQb82FUo6Mpw92y6bPtplgMdfpf4oXV7/view?usp=sharing",
+    "https://drive.google.com/file/d/1EceWYloVcFX19wCzTsALHNWx6yjZvi3P/view?usp=sharing",
   mail: "mailto:zlatin.antonius@ischoollabs.com",
 };
 

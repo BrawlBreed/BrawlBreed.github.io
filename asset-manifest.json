@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ffa41f0c.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d44428bb.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d44428bb.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.af792159.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.af792159.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.0d7a10c1.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.0d7a10c1.js.map",
-    "static/js/2.8c409549.chunk.js": "/Portfolio/static/js/2.8c409549.chunk.js",
-    "static/js/2.8c409549.chunk.js.map": "/Portfolio/static/js/2.8c409549.chunk.js.map",
+    "static/js/2.a230bf5f.chunk.js": "/Portfolio/static/js/2.a230bf5f.chunk.js",
+    "static/js/2.a230bf5f.chunk.js.map": "/Portfolio/static/js/2.a230bf5f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.d42cf1f21f9a1ee175785e4ff767da9d.js": "/Portfolio/precache-manifest.d42cf1f21f9a1ee175785e4ff767da9d.js",
+    "precache-manifest.d6fd4f5c21e3f06878dd6d5450e07b77.js": "/Portfolio/precache-manifest.d6fd4f5c21e3f06878dd6d5450e07b77.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.ffa41f0c.chunk.css.map": "/Portfolio/static/css/main.ffa41f0c.chunk.css.map",
-    "static/js/2.8c409549.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8c409549.chunk.js.LICENSE.txt",
+    "static/js/2.a230bf5f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.a230bf5f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Alex.jpg": "/Portfolio/static/media/Alex.34a55c55.jpg",
     "static/media/EntrepreneurshipImg.svg": "/Portfolio/static/media/EntrepreneurshipImg.6d4284bb.svg",
@@ -22,7 +22,6 @@
     "static/media/Lucy.jpg": "/Portfolio/static/media/Lucy.43e24aa0.jpg",
     "static/media/SocialMediaImg.svg": "/Portfolio/static/media/SocialMediaImg.c602a4b9.svg",
     "static/media/Zlatin.jpg": "/Portfolio/static/media/Zlatin.ce28eed4.jpg",
-    "static/media/ZlatinAntonius.png": "/Portfolio/static/media/ZlatinAntonius.f298c3bd.png",
     "static/media/academy.png": "/Portfolio/static/media/academy.4cc6731c.png",
     "static/media/bauddhikgeeks-transparent.png": "/Portfolio/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/Portfolio/static/media/bauddhikgeeks.f2d490dc.png",
@@ -67,8 +66,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0d7a10c1.js",
-    "static/js/2.8c409549.chunk.js",
+    "static/js/2.a230bf5f.chunk.js",
     "static/css/main.ffa41f0c.chunk.css",
-    "static/js/main.d44428bb.chunk.js"
+    "static/js/main.af792159.chunk.js"
   ]
 }

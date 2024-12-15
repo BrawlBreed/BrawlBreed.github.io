@@ -872,43 +872,87 @@ const contactPageData = {
 
 const projects = {
   data: [
+    // {
+    //   id: "1",
+    //   name: "Ischool",
+    //   url: "https://ischool.bg",
+    //   description:
+    //     "Elevating education through a comprehensive library of e-books and interactive materials, powered by user-friendly technology for seamless learning.",
+    //   languages: [
+    //     { name: "Swift", iconifyClass: "logos-swift" },
+    //     { name: "React Native", iconifyClass: "logos-react" },
+    //     { name: "Java", iconifyClass: "logos-java" },
+    //     { name: "Adobe", iconifyClass: "logos-adobe" },
+    //   ],
+    //   links: [],
+    // },
+    // {
+    //   id: "2",
+    //   name: "PhonePlay",
+    //   url: "https://phoneplay.bg",
+    //   description:
+    //     "PhonePlay blends React, Node.js, and PHP for a streamlined e-commerce experience in mobile accessories, showcasing our prowess in creating intuitive, responsive web solutions.",
+    //   languages: [
+    //     { name: "OpenCart", iconifyClass: "logos-opencart" },
+    //     { name: "jQuery", iconifyClass: "logos-jquery" },
+    //     { name: "HammerJS", iconifyClass: "logos-javascript" },
+    //   ],
+    //   links: [],
+    // },
+    // {
+    //   id: "3",
+    //   name: "VarCo",
+    //   url: "https://varco.tech",
+    //   description:
+    //     "Presents an innovative website and app. The platform seamlessly blends cutting-edge technology with intuitive design, offering users a comprehensive experience.",
+    //   languages: [
+    //     { name: "Next.js", iconifyClass: "logos-nextjs" },
+    //     { name: "Supabase", iconifyClass: "logos-supabase" },
+    //     { name: "CSS", iconifyClass: "logos-css-3" },
+    //   ],
+    //   links: [],
+    // },
     {
       id: "1",
-      name: "Ischool",
-      url: "https://ischool.bg",
+      name: "Cash2go",
+      url: "https://cash2-go-one.vercel.app/",
       description:
-        "Elevating education through a comprehensive library of e-books and interactive materials, powered by user-friendly technology for seamless learning.",
+        "Cash2go is a web application that allows users to track their expenses and income. It provides a simple and intuitive interface for managing finances, with features like adding transactions, setting budgets, and generating reports.",
       languages: [
-        { name: "Swift", iconifyClass: "logos-swift" },
-        { name: "React Native", iconifyClass: "logos-react" },
-        { name: "Java", iconifyClass: "logos-java" },
-        { name: "Adobe", iconifyClass: "logos-adobe" },
+        { name: "MongoDB", iconifyClass: "logos-mongodb" },
+        { name: "Express.js", iconifyClass: "logos-express" },
+        { name: "React.js", iconifyClass: "logos-react" },
+        { name: "Node.js", iconifyClass: "logos-nodejs" },
       ],
       links: [],
     },
     {
       id: "2",
-      name: "PhonePlay",
-      url: "https://phoneplay.bg",
+      name: "PPay",
+      url: "p-pay-gilt.vercel.app",
       description:
-        "PhonePlay blends React, Node.js, and PHP for a streamlined e-commerce experience in mobile accessories, showcasing our prowess in creating intuitive, responsive web solutions.",
+        "PPay is a web application that allows users to manage their personal finances. It provides features like adding transactions, sending and receiving funds, and customizing a profile & generating reports to help users track their expenses and income.",
       languages: [
-        { name: "OpenCart", iconifyClass: "logos-opencart" },
-        { name: "jQuery", iconifyClass: "logos-jquery" },
-        { name: "HammerJS", iconifyClass: "logos-javascript" },
+        { name: "MongoDB", iconifyClass: "logos-mongodb" },
+        { name: "Express.js", iconifyClass: "logos-express" },
+        { name: "React.js", iconifyClass: "logos-react" },
+        { name: "Node.js", iconifyClass: "logos-nodejs" },
+        { name: "Redux", iconifyClass: "logos-redux" },
       ],
       links: [],
     },
     {
       id: "3",
-      name: "VarCo",
-      url: "https://varco.tech",
+      name: "ViMax",
+      url: "https://github.com/BrawlBreed/ViMaxDemo",
       description:
-        "Presents an innovative website and app. The platform seamlessly blends cutting-edge technology with intuitive design, offering users a comprehensive experience.",
+        "ViMax is an ecommerce web application for technology that offers a wide range of products for sale. It features a user-friendly interface, and real-time inventory management to provide a seamless. Accustommed to Kubernetes Cloud deployment.",
       languages: [
+        { name: "Docker", iconifyClass: "logos-docker" },
+        { name: "PostgreSQL", iconifyClass: "logos-postgresql" },
+        { name: "TypeScript", iconifyClass: "logos-typescript" },
         { name: "Next.js", iconifyClass: "logos-nextjs" },
-        { name: "Supabase", iconifyClass: "logos-supabase" },
-        { name: "CSS", iconifyClass: "logos-css-3" },
+        { name: "Kubernetes", iconifyClass: "logos-kubernetes" },
       ],
       links: [],
     },
@@ -1185,23 +1229,23 @@ const projects = {
       links: [],
       url: "https://albiziacomplex.com/",
     },
-    {
-      id: "23",
-      name: "MyPOS Terminal Platform",
-      description:
-        "Platform for selling digital and physical POS terminals with secure payment gateways. Built with Next.js, MongoDB, Node.js, Express.js, and integrated with Stripe and PayPal APIs.",
-      languages: [
-        { name: "Next.js", iconifyClass: "logos-nextjs" },
-        { name: "MongoDB", iconifyClass: "logos-mongodb" },
-        { name: "Node.js", iconifyClass: "logos-nodejs" },
-        { name: "Express.js", iconifyClass: "logos-express" },
-        { name: "Stripe API", iconifyClass: "logos-stripe" },
-        { name: "PayPal API", iconifyClass: "logos-paypal" },
-      ],
-      links: [],
-      url: "https://github.com/irinabobeva12/DemoDeviceOrder.git",
-      // SOURCE CODE AND UPDATE IT ON MY PROFILE IN GIT
-    },
+    // {
+    //   id: "23",
+    //   name: "MyPOS Terminal Platform",
+    //   description:
+    //     "Platform for selling digital and physical POS terminals with secure payment gateways. Built with Next.js, MongoDB, Node.js, Express.js, and integrated with Stripe and PayPal APIs.",
+    //   languages: [
+    //     { name: "Next.js", iconifyClass: "logos-nextjs" },
+    //     { name: "MongoDB", iconifyClass: "logos-mongodb" },
+    //     { name: "Node.js", iconifyClass: "logos-nodejs" },
+    //     { name: "Express.js", iconifyClass: "logos-express" },
+    //     { name: "Stripe API", iconifyClass: "logos-stripe" },
+    //     { name: "PayPal API", iconifyClass: "logos-paypal" },
+    //   ],
+    //   links: [],
+    //   url: "https://github.com/irinabobeva12/DemoDeviceOrder.git",
+    //   // SOURCE CODE AND UPDATE IT ON MY PROFILE IN GIT
+    // },
     {
       id: "24",
       name: "GovStack Rwanda Goverment Platform",
